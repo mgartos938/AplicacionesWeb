@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  <body bgcolor="#DDFFDF">
     <form
       method="post"
       name="form-basic"
@@ -30,5 +30,29 @@
       <input type="radio" name="player" value="Anand">Anand<br>
       <input type="radio" name="player" value="Fisher" checked>Fisher<br>
     </form>
+
+    <form><br>
+      <input type="checkbox" name="medico">Médico<br>
+      <input type="checkbox" name="programador" checked>Programador<br>
+      <input type="checkbox" name="abogado">Abogado<br>
+      <input type="checkbox" name="ingeniero">Ingeniero<br>
+      <center><input type="submit" value="Enviar"></center>
+    </form>
+    <form><br>Elija un color:
+      <select name="color">
+        <option>Verde
+        <option>Rojo
+        <option>Azul
+      </select>
+      <input type="submit" value="Enviar eleccion"><br>
+    </form>
+
+    <form><h3 style="color:lightblue;">Formulario de Identificación</h3>
+      Introduzca su nombre:<input type="textarea" name="nombre" value="Introduza su nombre"><br><br>Sexo:
+      <input type="radio" name="sexo" value="Hombre">Hombre
+      <input type="radio" name="sexo" value="Mujer">Mujer<br>
+      <br>Comentarios:<input type="textarea" name="comentarios" value=""><br>
+      <br><input type="submit" value="Enviar"><input type="reset" value="Restablecer">
+
   </body>
 </html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>W3schools Margin CSS</title>
+    <style type="text/css">
+
+      /* ejemplo 1 */
+
+      div.uno {
+        border: 1px solid #4CAF50;
+        margin: 70px;
+      }
+
+
+      /* ejemplo 2 */
+
+      div.dos {
+        background-color: lightblue;
+        border: 1px solid black;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+      }
+
+
+      /* ejemplo 3 */
+
+
+      div.tres {
+        border: 1px solid black;
+        margin: 25px 50px 75px 100px;
+        background-color: lightblue;
+      }
+
+
+      /* ejemplo 4 */
+
+
+      div.cuatro {
+        border: 1px solid black;
+        margin: 25px 50px 75px;
+        background-color: lightblue;
+      }
+
+
+      /* ejemplo 5 */
+
+
+      div.cinco {
+        border: 1px solid black;
+        margin: 25px 50px;
+        background-color: lightblue;
+      }
+
+
+      /* ejemplo 6 */
+
+
+      div.seis {
+        background-color: lightblue;
+        border: 1px solid black;
+        margin: 25px;
+      }
+
+
+      /* ejemplo 7 */
+
+
+      div.siete {
+        width:300px;
+        margin: auto;
+        border: 1px solid red;
+      }
+
+
+      /* ejemplo 8 */
+
+
+      div.ocho {
+        border: 1px solid red;
+        margin-left: 100px;
+      }
+
+      /* ejemplo 9 */
+
+
+      h1.h11 {
+        margin: 0 0 50px 0;
+      }
+      h2.h21 {
+        margin: 20px 0 0 0;
+      }
+
+      p.p1 {
+        margin-left: inherit;
+      }
+
+
+      /* decoración h1 */
+
+
+      h1 {
+        text-align: center;
+        font-family: "Arial";
+      }
+
+
+      /* decoración p */
+
+
+      p {
+        text-align: center;
+        font-family: "Arial";
+      }
+
+    </style>
+  </head>
+  <body>
+
+
+    <h1>Ejemplo 1</h1>
+    <div class="uno">
+      Este elemento tiene un margen de 70px.
+    </div>
+
+
+    <h1>Ejemplo 2</h1>
+    <div class="dos">
+      Margen por arriba de 100px, un margen derecho de 150px,
+      por abajo de 100px, y izquierdo de 80px.
+    </div>
+
+
+    <h1>Ejemplo 3</h1>
+    <div class="tres">Este elemento div tiene un margen superior de 25px, un
+      margen derecho de 50px, un margen inferior de 75px, y un margen izquierdo
+      de 100px.
+    </div>
+
+
+    <h1>Ejemplo 4</h1>
+    <div class="cuatro">Este elemento div tiene un margen superior de 25px, un
+      derecho y margen izquierdo de 50px, y un margen inferior de 75px.
+    </div>
+
+
+    <h1>Ejemplo 5</h1>
+    <div class="cinco">Este elemento div tiene un margen superior e inferior de
+      25px, y un derecho y margen izquierdo de 50px.
+    </div>
+
+
+    <h1>Ejemplo 6</h1>
+    <div class="seis">Este elemento div tiene una parte superior, inferior,
+      izquierda y derecha margen de 25px.
+    </div>
+
+
+    <h1>Ejemplo 7</h1>
+    <p>Puede establecer la propiedad margin a auto para centrar horizontalmente
+      el dentro de su contenedor. El elemento entonces tomará el especificado
+      ancho, y el espacio restante se dividirá por igual entre la izquierda y
+      márgenes correctos:</p>
+    <div class="siete">
+      Este div será centrado horizontalmente porque tiene margen: auto;
+    </div>
+
+
+    <h1>Ejemplo 8</h1>
+    <p>Que el margen izquierdo sea heredado del elemento padre:</p>
+    <div class="ocho">
+      <p class="p1">Este párrafo tiene un margen de izquierda heredado (de la div
+      elemento)</p>
+    </div>
+
+    <h1>Ejemplo 9</h1>
+    <p>En este ejemplo el elemento h1 tiene un margen inferior de 50px y el h2
+      tiene un margen superior de 20px. Entonces, el margen vertical entre h1
+      y h2 debería haber sido 70px (50px + 20px). Sin embargo, debido al margen
+      colapso, el margen real termina siendo 50px.</p>
+    <h1 class="h11">Título 1</h1>
+    <h2 class="h21">Título 2</h2>
+  </body>
+</html>

@@ -1,36 +1,58 @@
-body {
-
-}
-tr.fila1 {
-  background-color: #EE5745;
-  color: white;
-}
-
-tr.fila2 {
-  background-color: white;
-}
-td.mensual {
-
-}
-span.mensual {
-  font-size:20px;
-  font-family: "Helvetica";
-  font-weight: bold;
-  padding: 20px;
-  margin: 20px;
-}
-span.precio1 {
-  font-size:60px;
-  font-family: "Helvetica";
-  font-weight: bold;
-}
 table {
-  background-color: #F7F7F7;
+  background-color: #F1F1F1;
   border-collapse: separate;
-  border-spacing: 20px 5px;
+  border-spacing: 20px 0 ;
+  }
+
+tr.periodos {
+  background-color: #F64943;
+  text-align: center;
+  color: white;
+  font-family: "Arial";
 }
+
+tr.matricula {
+  background-color: white;
+  font-family: "Arial";
+  text-align: center;
+}
+
+span.matricula2 {
+  font-weight: bold;
+  color: #2D3E40;
+  font-size: 20px;
+  line-height: 35pt;
+}
+
+span.clases {
+  font-weight: lighter;
+  color: #747374;
+  line-height: 35pt;
+}
+
+span.clases2 {
+  font-weight: lighter;
+  color: #747374;
+}
+
+span.periodo {
+  font-size: 27px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+span.precio {
+  font-size: 65px;
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+span.euros {
+  font-size: 30px;
+}
+
 button {
-  background-color: #EE5745;
+  background-color: #F64943;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -38,6 +60,6 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
+  margin-top: 65px;
 }

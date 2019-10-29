@@ -32,3 +32,30 @@ hr {
   margin: 20px;
   width: 50%
 }
+img.twitter {
+    margin: 20px;
+}
+
+table.tabla2 {
+  background-color: white;
+  width: 100%
+}
+div.h2 {
+  margin: 20px;
+  color: white;
+  background-color: #252850;
+  width: 20%
+}
+div.h3 {
+  margin: 20px;
+  color: lightblue;
+  width: 20%
+}
+div.h4 {
+  margin: 20px;
+  width: 20%
+}
+p.pbody {
+  margin: 20px;
+  width: 40%
+}

@@ -1,0 +1,34 @@
+body {
+  background-color: #252850;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+a {
+  color: white;
+}
+div.a1 {
+  background-color: #252850;
+  background-size: 100%;
+  text-align: right;
+  color: white;
+}
+table.tabla1 {
+  background-image: url(img/img1.jpg);
+  width: 100%;
+}
+h1.h1encabezado {
+  color: white;
+  font-weight: bold;
+  margin: 20px;
+}
+p.pencabezado {
+  color: white;
+    margin: 20px;
+}
+hr {
+  color: white;
+  margin: 20px;
+  width: 50%
+}

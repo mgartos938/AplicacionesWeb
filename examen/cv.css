@@ -1,0 +1,122 @@
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #00245e;
+}
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+p.links {
+  text-align: right;
+  color: white;
+  font-size: 12px;
+  margin: 5px 2px;
+}
+
+p.links a {
+  color: white;
+}
+
+hr {
+  border: 1px solid white;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+span.letra {
+  color: #2f9bfa;
+  font-weight: bold;
+}
+
+span.unbold {
+  font-weight: normal;
+}
+
+img.logo {
+  width: 40px;
+  height: 40px;
+}
+
+img.perfil {
+  width: 125px;
+  border: 8px solid white;
+}
+
+table.uno {
+  background-image: url(img/cielo-azul-nubes.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0px solid white;
+}
+
+td {
+  width: 25%;
+}
+
+td.left {
+  width: 50%;
+}
+
+td.left p {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+td.center {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+table.dos {
+  width: 100%;
+  background-color: white;
+  padding: 10px 15px;
+}
+h2.h2 {
+  color: white;
+  background-color: #00245e;
+  width: 52%;
+  font-size: 16px;
+
+}
+h4.h4 {
+  color: blue;
+  line-height: 1px;
+}
+h6.h6 {
+  line-height: 1px;
+  color: darkblue;
+}
+h2.h22 {
+  color: white;
+  background-color: #00245e;
+  width: 85%;
+  font-size: 19px;
+
+}
+h2.h222 {
+  color: white;
+  background-color: #00245e;
+  width: 37%;
+  font-size: 19px;
+
+}
+td.columna2 {
+  vertical-align: top;
+}
+h2.h223 {
+  color: white;
+  background-color: #00245e;
+  width: 60%;
+  font-size: 19px;
+
+}

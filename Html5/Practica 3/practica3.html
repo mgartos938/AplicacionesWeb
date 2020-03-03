@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="practica3.css">
+    <title>Formularios</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formularios HTML5</h1>
+      <h2>Práctica 03 - Lenguaje HTML5</h2>
+    </header>
+    <article>
+      <section>
+        <form>
+          <hr>
+          <label for="Nombre">Nombre:</label>
+          <input type="text" id="fname" name="fname"><br>
+          <hr>
+          <label for="Apellidos">Apellidos:</label>
+          <input type="text" id="apellido" name="Apellido"><br>
+          <hr>
+          <label for="Direccion">Dirección:</label>
+          <input type="text" id="direccion" name="direccion"><br>
+          <hr>
+          <label for="Email">Email:</label>
+          <input type="text" id="email" name="email"><br>
+          <hr>
+          <label for="URL">URL:</label>
+          <input type="text" class="1" id="url" name="url"
+          value="Escribe la URL de tu página"><br>
+          <hr>
+          <label for="Fecha">Fecha:</label>
+          <input class="1" type="date" id="fecha" name="fecha"><br>
+          <hr>
+          <label for="Mes">Mes:</label>
+          <input class="1" type="month" id="mes" name="mes"><br>
+          <hr>
+          <label for="Semana">Semana:</label>
+          <input class="1" type="week" id="semana" name="semana"><br>
+          <hr>
+          <label for="Número">Número (min -10, max 10):</label>
+          <input class="1" type="number" id="numero" name="numero" min="-10" max="10"><br>
+          <hr>
+          <label for="Barra">Intervalo (min 0, max 10):</label>
+          0<input class="1" type="range" id="rango" name="rango" min="0" max="10">10<br>
+          <hr>
+          <label for="Telefono">Teléfono:</label>
+          <input type="text" id="telefono" name="telefono"><br>
+          <hr>
+          <label for="Termino">Término de búsqueda:</label>
+          <input class="dos" type="text" id="termino" name="termino"><br>
+          <hr>
+          <label for="color">Color:</label>
+          <input type="color" id="color" name="color"><br>
+          <hr>
+          <label for="Tiempo de llegada">Tiempo de LLegada:</label>
+          <input type="time" id="llegada" name="llegada"><br>
+          <hr>
+          <label for="Contraseña">Contraseña:</label>
+          <input type="password" id="contraseña" name="contraseña"><br>
+          <hr>
+          <label for="Forma de pago">Forma de pago:</label>
+          <input type="radio" id="contra" name="contra">Contra Rembolso
+          <input type="radio" id="tarjeta" name="tarjeta">Tarjeta Crédito
+          <input type="radio" id="paypal" name="paypal">PayPal<br>
+          <hr>
+          <label for="deportes">Deportes favoritos:</label>
+          <input type="checkbox" id="fut" name="fut">Fútbol
+          <input type="checkbox" id="bal" name="bal">Baloncesto
+          <input type="checkbox" id="ten" name="ten">Tenis<br>
+          <hr>
+          <label for="color2">Seleccione un color:</label>
+          <select name="color">
+          <option value="azul">Azul</option>
+          <option value="rojo">Rojo</option>
+          <option value="verde">Verde</option>
+          </select>
+          <hr>
+          <label for="comentarios">Comentarios:</label><br>
+          <textarea placeholder="Escribe aquí el texto..." name="texto"
+           cols="80" rows="10">Este es el valor por defecto</textarea>
+          <hr>
+          <label for="fichero">Adjuntar Fichero:</label>
+          <input type="file" id="fichero" name="fichero"><br>
+          <hr>
+          <input type="reset" value="Reestablecer">
+          <input type="submit" value="Enviar formulario">
+        </form>
+      </section>
+    </article>
+    <footer><address>
+      Mario García Toscano - Fuente Grande - 2º SMR
+    </address></footer>
+  </body>
+</html>

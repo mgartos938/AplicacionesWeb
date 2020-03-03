@@ -1,0 +1,40 @@
+h1 {
+  color: white;
+  background-color: #808080;
+  border: 15px solid #808080;
+  font-family: arial black;
+  margin: 10px;
+  padding-top: 5px;
+
+}
+nav {
+  border: 1px solid grey;
+  margin: 10px;
+  padding-top: 5px;
+
+}
+a {
+  margin: 10px;
+}
+section {
+  margin: 10px;
+  border: 1px solid grey;
+}
+article {
+  margin: 10px;
+  border: 1px solid grey;
+}
+h2 {
+  padding-left: 10px
+}
+p {
+  padding-left: 10px
+}
+p.p {
+  color: white;
+  background-color: #808080;
+  border: 10px solid #808080;
+  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

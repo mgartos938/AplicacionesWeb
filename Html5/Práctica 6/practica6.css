@@ -1,0 +1,25 @@
+header {
+  font-family: arial;
+  border: 1px solid grey;
+  padding-left: 10px;
+  margin: 60px 60px 5px 60px;
+}
+article {
+  margin: 10px 60px 10px 60px;
+  border: 1px solid grey;
+}
+section {
+  border: 1px solid grey;
+  margin: 10px 10px 10px 10px;
+  padding: 1px 15px 5px 15px;
+  font-family: arial;
+}
+address {
+  margin: 10px;
+  font-family: arial;
+  font-size: 11px
+}
+footer {
+  border: 1px solid grey;
+  margin: 10px 60px 60px 60px;
+}

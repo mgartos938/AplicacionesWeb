@@ -17,7 +17,7 @@ article {
 }
 section {
   border: 1px solid grey;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 0px 10px 10px;
   padding: 1px 15px 5px 15px;
   font-family: arial;
 }
@@ -30,6 +30,6 @@ input.dos {
   }
   footer {
     border: 1px solid grey;
-    margin: 60px 60px 5px 60px;
+    margin: 60px 0px 0px 60px;
     padding: 20px;
   }
